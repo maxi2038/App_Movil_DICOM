@@ -6,7 +6,6 @@ import ChatbotScreen from '../screens/ChatbotScreen';
 
 const Stack = createNativeStackNavigator();
 
-// --- MODIFICADO: El componente ahora recibe la prop 'onLogout' ---
 const MainNavigator = ({ onLogout }) => {
   return (
     <Stack.Navigator 
